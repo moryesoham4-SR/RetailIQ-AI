@@ -1,0 +1,23 @@
+# Secrets — never commit this
+.streamlit/secrets.toml
+
+# Local data folder — kept on your machine only
+retailiq_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
